@@ -7,7 +7,7 @@ const IS_DELETED_FIELD = "isDeleted";
 const DELETED_AT_FIELD = "deleteAt";
 
 //use soft delete plugin
-plugin(
+//plugin(
     new SoftDelete({
         isDeletedField: IS_DELETED_FIELD,
         deletedAtField: DELETED_AT_FIELD,
